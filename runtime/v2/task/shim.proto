@@ -49,6 +49,52 @@ service Task {
 	rpc Stats(StatsRequest) returns (StatsResponse);
 	rpc Connect(ConnectRequest) returns (ConnectResponse);
 	rpc Shutdown(ShutdownRequest) returns (google.protobuf.Empty);
+	rpc Version(VersionRequest) returns (VersionResponse);
+    rpc Mount(MountRequest) returns (MountResponse);
+    rpc ConfigNetWork(ConfigNetWorkRequest) returns (ConfigNetWorkResponse);
+}
+
+message VersionRequest {
+    // Version of the kubelet runtime API.
+    string version = 1;
+}
+
+message VersionResponse {
+    // Version of the kubelet runtime API.
+    string version = 1;
+    // Name of the container runtime.
+    string runtime_name = 2;
+    // Version of the container runtime. The string must be
+    // semver-compatible.
+    string runtime_version = 3;
+    // API version of the container runtime. The string must be
+    // semver-compatible.
+    string runtime_api_version = 4;
+}
+
+message MountRequest {
+	// Type defines the nature of the mount.
+	string type = 1;
+	// Source specifies the name of the mount. Depending on mount type, this
+	// may be a volume name or a host path, or even ignored.
+	string source = 2;
+	// Target path in container
+	string target = 3;
+	// Options specifies zero or more fstab style mount options.
+	repeated string options = 4;
+}
+
+message MountResponse {
+}
+
+message ConfigNetWorkRequest {
+    string ip      = 1;
+    string netmask = 2;
+    string mac     = 3;
+    string nicName = 4;
+}
+
+message ConfigNetWorkResponse {
 }
 
 message CreateTaskRequest {

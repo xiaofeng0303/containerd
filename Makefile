@@ -22,7 +22,7 @@ DESTDIR ?= /usr/local
 # Used to populate variables in version package.
 VERSION=$(shell git describe --match 'v[0-9]*' --dirty='.m' --always)
 REVISION=$(shell git rev-parse HEAD)$(shell if ! git diff --no-ext-diff --quiet --exit-code; then echo .m; fi)
-PACKAGE=github.com/containerd/containerd
+PACKAGE=github.com/xiaofeng0303/containerd
 SHIM_CGO_ENABLED ?= 0
 
 ifneq "$(strip $(shell command -v go 2>/dev/null))" ""
@@ -68,7 +68,7 @@ RELEASE=containerd-$(VERSION:v%=%).${GOOS}-${GOARCH}
 CRIRELEASE=cri-containerd-$(VERSION:v%=%)-${GOOS}-${GOARCH}
 CRICNIRELEASE=cri-containerd-cni-$(VERSION:v%=%)-${GOOS}-${GOARCH}
 
-PKG=github.com/containerd/containerd
+PKG=github.com/xiaofeng0303/containerd
 
 # Project binaries.
 COMMANDS=ctr containerd containerd-stress

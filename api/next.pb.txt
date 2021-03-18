@@ -50,7 +50,7 @@ file {
   }
 }
 file {
-  name: "github.com/containerd/containerd/api/events/container.proto"
+  name: "github.com/xiaofeng0303/containerd/api/events/container.proto"
   package: "containerd.events"
   dependency: "google/protobuf/any.proto"
   dependency: "gogoproto/gogo.proto"
@@ -169,7 +169,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/events/content.proto"
+  name: "github.com/xiaofeng0303/containerd/api/events/content.proto"
   package: "containerd.events"
   dependency: "gogoproto/gogo.proto"
   dependency: "github.com/containerd/containerd/protobuf/plugin/fieldpath.proto"
@@ -196,7 +196,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/events/image.proto"
+  name: "github.com/xiaofeng0303/containerd/api/events/image.proto"
   package: "containerd.services.images.v1"
   dependency: "github.com/containerd/containerd/protobuf/plugin/fieldpath.proto"
   message_type {
@@ -293,7 +293,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/events/namespace.proto"
+  name: "github.com/xiaofeng0303/containerd/api/events/namespace.proto"
   package: "containerd.events"
   dependency: "gogoproto/gogo.proto"
   dependency: "github.com/containerd/containerd/protobuf/plugin/fieldpath.proto"
@@ -392,7 +392,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/events/snapshot.proto"
+  name: "github.com/xiaofeng0303/containerd/api/events/snapshot.proto"
   package: "containerd.events"
   dependency: "github.com/containerd/containerd/protobuf/plugin/fieldpath.proto"
   message_type {
@@ -519,7 +519,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/events/task.proto"
+  name: "github.com/xiaofeng0303/containerd/api/events/task.proto"
   package: "containerd.events"
   dependency: "gogoproto/gogo.proto"
   dependency: "google/protobuf/timestamp.proto"
@@ -847,7 +847,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/services/containers/v1/containers.proto"
+  name: "github.com/xiaofeng0303/containerd/api/services/containers/v1/containers.proto"
   package: "containerd.services.containers.v1"
   dependency: "gogoproto/gogo.proto"
   dependency: "google/protobuf/any.proto"
@@ -1177,7 +1177,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/services/content/v1/content.proto"
+  name: "github.com/xiaofeng0303/containerd/api/services/content/v1/content.proto"
   package: "containerd.services.content.v1"
   dependency: "gogoproto/gogo.proto"
   dependency: "google/protobuf/field_mask.proto"
@@ -1808,7 +1808,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/services/diff/v1/diff.proto"
+  name: "github.com/xiaofeng0303/containerd/api/services/diff/v1/diff.proto"
   package: "containerd.services.diff.v1"
   dependency: "gogoproto/gogo.proto"
   dependency: "google/protobuf/any.proto"
@@ -1965,7 +1965,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/services/events/v1/events.proto"
+  name: "github.com/xiaofeng0303/containerd/api/services/events/v1/events.proto"
   package: "containerd.services.events.v1"
   dependency: "github.com/containerd/containerd/protobuf/plugin/fieldpath.proto"
   dependency: "gogoproto/gogo.proto"
@@ -2078,7 +2078,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/services/images/v1/images.proto"
+  name: "github.com/xiaofeng0303/containerd/api/services/images/v1/images.proto"
   package: "containerd.services.images.v1"
   dependency: "gogoproto/gogo.proto"
   dependency: "google/protobuf/empty.proto"
@@ -2394,7 +2394,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/services/introspection/v1/introspection.proto"
+  name: "github.com/xiaofeng0303/containerd/api/services/introspection/v1/introspection.proto"
   package: "containerd.services.introspection.v1"
   dependency: "github.com/containerd/containerd/api/types/platform.proto"
   dependency: "google/rpc/status.proto"
@@ -2535,7 +2535,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/services/leases/v1/leases.proto"
+  name: "github.com/xiaofeng0303/containerd/api/services/leases/v1/leases.proto"
   package: "containerd.services.leases.v1"
   dependency: "gogoproto/gogo.proto"
   dependency: "google/protobuf/empty.proto"
@@ -2800,7 +2800,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/services/namespaces/v1/namespace.proto"
+  name: "github.com/xiaofeng0303/containerd/api/services/namespaces/v1/namespace.proto"
   package: "containerd.services.namespaces.v1"
   dependency: "gogoproto/gogo.proto"
   dependency: "google/protobuf/empty.proto"
@@ -3000,7 +3000,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/services/snapshots/v1/snapshots.proto"
+  name: "github.com/xiaofeng0303/containerd/api/services/snapshots/v1/snapshots.proto"
   package: "containerd.services.snapshots.v1"
   dependency: "gogoproto/gogo.proto"
   dependency: "google/protobuf/empty.proto"
@@ -3749,7 +3749,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/services/tasks/v1/tasks.proto"
+  name: "github.com/xiaofeng0303/containerd/api/services/tasks/v1/tasks.proto"
   package: "containerd.services.tasks.v1"
   dependency: "google/protobuf/empty.proto"
   dependency: "google/protobuf/any.proto"
@@ -4401,7 +4401,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/services/ttrpc/events/v1/events.proto"
+  name: "github.com/xiaofeng0303/containerd/api/services/ttrpc/events/v1/events.proto"
   package: "containerd.services.events.ttrpc.v1"
   dependency: "github.com/containerd/containerd/protobuf/plugin/fieldpath.proto"
   dependency: "gogoproto/gogo.proto"
@@ -4475,7 +4475,7 @@ file {
   syntax: "proto3"
 }
 file {
-  name: "github.com/containerd/containerd/api/services/version/v1/version.proto"
+  name: "github.com/xiaofeng0303/containerd/api/services/version/v1/version.proto"
   package: "containerd.services.version.v1"
   dependency: "google/protobuf/empty.proto"
   dependency: "gogoproto/gogo.proto"
@@ -4508,5 +4508,346 @@ file {
     go_package: "github.com/containerd/containerd/api/services/version/v1;version"
   }
   weak_dependency: 1
+  syntax: "proto3"
+}
+file {
+  name: "github.com/xiaofeng0303/containerd/api/types/descriptor.proto"
+  package: "containerd.types"
+  dependency: "gogoproto/gogo.proto"
+  message_type {
+    name: "Descriptor"
+    field {
+      name: "media_type"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+      json_name: "mediaType"
+    }
+    field {
+      name: "digest"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+      options {
+        65001: 0
+        65003: "github.com/opencontainers/go-digest.Digest"
+      }
+      json_name: "digest"
+    }
+    field {
+      name: "size"
+      number: 3
+      label: LABEL_OPTIONAL
+      type: TYPE_INT64
+      json_name: "size"
+    }
+    field {
+      name: "annotations"
+      number: 5
+      label: LABEL_REPEATED
+      type: TYPE_MESSAGE
+      type_name: ".containerd.types.Descriptor.AnnotationsEntry"
+      json_name: "annotations"
+    }
+    nested_type {
+      name: "AnnotationsEntry"
+      field {
+        name: "key"
+        number: 1
+        label: LABEL_OPTIONAL
+        type: TYPE_STRING
+        json_name: "key"
+      }
+      field {
+        name: "value"
+        number: 2
+        label: LABEL_OPTIONAL
+        type: TYPE_STRING
+        json_name: "value"
+      }
+      options {
+        map_entry: true
+      }
+    }
+  }
+  options {
+    go_package: "github.com/containerd/containerd/api/types;types"
+  }
+  weak_dependency: 0
+  syntax: "proto3"
+}
+file {
+  name: "github.com/xiaofeng0303/containerd/api/types/metrics.proto"
+  package: "containerd.types"
+  dependency: "gogoproto/gogo.proto"
+  dependency: "google/protobuf/any.proto"
+  dependency: "google/protobuf/timestamp.proto"
+  message_type {
+    name: "Metric"
+    field {
+      name: "timestamp"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_MESSAGE
+      type_name: ".google.protobuf.Timestamp"
+      options {
+        65001: 0
+        65010: 1
+      }
+      json_name: "timestamp"
+    }
+    field {
+      name: "id"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+      json_name: "id"
+    }
+    field {
+      name: "data"
+      number: 3
+      label: LABEL_OPTIONAL
+      type: TYPE_MESSAGE
+      type_name: ".google.protobuf.Any"
+      json_name: "data"
+    }
+  }
+  options {
+    go_package: "github.com/containerd/containerd/api/types;types"
+  }
+  weak_dependency: 0
+  syntax: "proto3"
+}
+file {
+  name: "github.com/xiaofeng0303/containerd/api/types/mount.proto"
+  package: "containerd.types"
+  dependency: "gogoproto/gogo.proto"
+  message_type {
+    name: "Mount"
+    field {
+      name: "type"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+      json_name: "type"
+    }
+    field {
+      name: "source"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+      json_name: "source"
+    }
+    field {
+      name: "target"
+      number: 3
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+      json_name: "target"
+    }
+    field {
+      name: "options"
+      number: 4
+      label: LABEL_REPEATED
+      type: TYPE_STRING
+      json_name: "options"
+    }
+  }
+  options {
+    go_package: "github.com/containerd/containerd/api/types;types"
+  }
+  weak_dependency: 0
+  syntax: "proto3"
+}
+file {
+  name: "github.com/xiaofeng0303/containerd/api/types/platform.proto"
+  package: "containerd.types"
+  dependency: "gogoproto/gogo.proto"
+  message_type {
+    name: "Platform"
+    field {
+      name: "os"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+      options {
+        65004: "OS"
+      }
+      json_name: "os"
+    }
+    field {
+      name: "architecture"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+      json_name: "architecture"
+    }
+    field {
+      name: "variant"
+      number: 3
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+      json_name: "variant"
+    }
+  }
+  options {
+    go_package: "github.com/containerd/containerd/api/types;types"
+  }
+  weak_dependency: 0
+  syntax: "proto3"
+}
+file {
+  name: "github.com/xiaofeng0303/containerd/api/types/task/task.proto"
+  package: "containerd.v1.types"
+  dependency: "gogoproto/gogo.proto"
+  dependency: "google/protobuf/timestamp.proto"
+  dependency: "google/protobuf/any.proto"
+  message_type {
+    name: "Process"
+    field {
+      name: "container_id"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+      json_name: "containerId"
+    }
+    field {
+      name: "id"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+      json_name: "id"
+    }
+    field {
+      name: "pid"
+      number: 3
+      label: LABEL_OPTIONAL
+      type: TYPE_UINT32
+      json_name: "pid"
+    }
+    field {
+      name: "status"
+      number: 4
+      label: LABEL_OPTIONAL
+      type: TYPE_ENUM
+      type_name: ".containerd.v1.types.Status"
+      json_name: "status"
+    }
+    field {
+      name: "stdin"
+      number: 5
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+      json_name: "stdin"
+    }
+    field {
+      name: "stdout"
+      number: 6
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+      json_name: "stdout"
+    }
+    field {
+      name: "stderr"
+      number: 7
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+      json_name: "stderr"
+    }
+    field {
+      name: "terminal"
+      number: 8
+      label: LABEL_OPTIONAL
+      type: TYPE_BOOL
+      json_name: "terminal"
+    }
+    field {
+      name: "exit_status"
+      number: 9
+      label: LABEL_OPTIONAL
+      type: TYPE_UINT32
+      json_name: "exitStatus"
+    }
+    field {
+      name: "exited_at"
+      number: 10
+      label: LABEL_OPTIONAL
+      type: TYPE_MESSAGE
+      type_name: ".google.protobuf.Timestamp"
+      options {
+        65001: 0
+        65010: 1
+      }
+      json_name: "exitedAt"
+    }
+  }
+  message_type {
+    name: "ProcessInfo"
+    field {
+      name: "pid"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_UINT32
+      json_name: "pid"
+    }
+    field {
+      name: "info"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_MESSAGE
+      type_name: ".google.protobuf.Any"
+      json_name: "info"
+    }
+  }
+  enum_type {
+    name: "Status"
+    value {
+      name: "UNKNOWN"
+      number: 0
+      options {
+        66001: "StatusUnknown"
+      }
+    }
+    value {
+      name: "CREATED"
+      number: 1
+      options {
+        66001: "StatusCreated"
+      }
+    }
+    value {
+      name: "RUNNING"
+      number: 2
+      options {
+        66001: "StatusRunning"
+      }
+    }
+    value {
+      name: "STOPPED"
+      number: 3
+      options {
+        66001: "StatusStopped"
+      }
+    }
+    value {
+      name: "PAUSED"
+      number: 4
+      options {
+        66001: "StatusPaused"
+      }
+    }
+    value {
+      name: "PAUSING"
+      number: 5
+      options {
+        66001: "StatusPausing"
+      }
+    }
+    options {
+      62001: 0
+      62023: "Status"
+    }
+  }
+  weak_dependency: 0
   syntax: "proto3"
 }

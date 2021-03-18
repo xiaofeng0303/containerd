@@ -1,5 +1,5 @@
 file {
-  name: "github.com/containerd/containerd/runtime/linux/runctypes/runc.proto"
+  name: "github.com/xiaofeng0303/containerd/runtime/linux/runctypes/runc.proto"
   package: "containerd.linux.runc"
   dependency: "gogoproto/gogo.proto"
   message_type {
